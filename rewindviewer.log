@@ -1,0 +1,12 @@
+arguments: ./rewind-viewer/rewindviewer --help
+Current dir: /Users/ilya/PycharmProjects/gameton
+File verbosity level: 0
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2024-10-11 22:54:45.701 (   0.002s) [main thread     ]             loguru.hpp:1971     0| Logging to 'rewindviewer.log', mode: 'w', verbosity: 0
+2024-10-11 22:54:45.701 (   0.002s) [main thread     ]               main.cpp:35       0| Init GLFW
+2024-10-11 22:54:45.832 (   0.134s) [main thread     ]               main.cpp:95       0| Create main window
+2024-10-11 22:54:46.212 (   0.513s) [main thread     ]               main.cpp:111    ERR| Cannot find application icon (resources/icon.png). Make sure you launch viewer from directory with 'resources' folder
+Stack trace:
+1          0x18ca5c274 start + 2840
+0          0x104e10680 main + 332
+2024-10-11 22:54:46.212 (   0.514s) [main thread     ]               main.cpp:43    FATL| Cannot setup window
